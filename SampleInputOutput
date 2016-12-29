@@ -1,0 +1,36 @@
+Vigenére Cipher:
+
+1. Encryption:
+
+	Input:
+
+		Let /home/leela/workspace/VigenereCipher/input file has following text:
+
+			ONCEUPONATIMETHEREWASANOLDWOMANWHOLOVEDBAKINGGINGERBREAD
+
+	Then run the following command:
+
+		java Vigenere -e MYKEYWORD /home/leela/workspace/VigenereCipher/input
+
+	After Encryption the ouput text file is stored at: /home/leela/workspace/VigenereCipher/src/output with the following text:
+
+		ALMISLCEDFGWIRDSIHIYCELKZUZAKKRUDCCRHCNFYGWEJSGXKCNPIHMB
+
+
+2. Decryption:
+
+	Input:
+
+		Let /home/leela/workspace/VigenereCipher/input file has following text:
+
+			ALMISLCEDFGWIRDSIHIYCELKZUZAKKRUDCCRHCNFYGWEJSGXKCNPIHMB
+
+	Then run the following command:
+
+		java Vigenere -d MYKEYWORD /home/leela/workspace/VigenereCipher/input
+
+	After Decryption the ouput text file is stored at: /home/leela/workspace/VigenereCipher/src/output with the following text:
+		
+		ONCEUPONATIMETHEREWASANOLDWOMANWHOLOVEDBAKINGGINGERBREAD
+
+
